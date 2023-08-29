@@ -1,6 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -49,4 +49,39 @@ body{
 .nav_image img {
   width: 575px;
   height: 800px;
+}
+
+.deals_container {
+  margin-top: 100px;
+
+  background: rgba(229, 84, 115, 0.1);
+  padding: 50px;
+}
+
+.abc {
+  margin-right: 60px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.deals_header {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.deals_header span {
+  color: #e55473;
+}
+
+.deals_details {
+  text-align: center;
+}
+
+.deals_image img {
+  width: 318px;
+  height: 420px;
 }
