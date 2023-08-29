@@ -1,3 +1,52 @@
-* {
-  background-color: red;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 20px;
+  /* margin: 50px; */
+}
+
+.nav_header {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.header_paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.shop_btn {
+  /* margin: 20px; */
+  margin-top: 30px;
+  padding: 15px 25px;
+  background-color: #e55473;
+  border-radius: 8px;
+  border: 0px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav_image img {
+  width: 575px;
+  height: 800px;
 }
