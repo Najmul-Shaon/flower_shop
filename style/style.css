@@ -1,6 +1,7 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  font-family: Lato;
 }
 
 .header {
@@ -84,4 +85,29 @@ body {
 .deals_image img {
   width: 318px;
   height: 420px;
+}
+
+.instagram_text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.instagram_header {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.instagram_img {
+    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.instagram_img img {
+  width: 300px;
+  height: 350px;
 }
