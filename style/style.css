@@ -114,7 +114,7 @@
   padding: 50px;
 }
 
-.abc {
+.deals {
   margin-right: 60px;
   margin-left: 60px;
   display: flex;
@@ -165,6 +165,49 @@
 .instagram_img img {
   width: 300px;
   height: 350px;
+}
+
+.review_title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.review_container {
+  display: flex;
+  /* margin-right: 20px; */
+  justify-content: center;
+  gap: 10px;
+}
+
+.review_header {
+  color: #272727;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.review_description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.single_review {
+  background: rgba(71, 125, 17, 0.15);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 10px 5px rgba(71, 125, 17, 0.15);
+}
+
+.fa-regular,
+.fa-solid {
+  color: rgb(179, 159, 49);
 }
 
 .latest_deals_container {
